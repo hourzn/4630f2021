@@ -1,0 +1,12 @@
+My app proposal is an app called "Resell Portfolio". The reason why I wanted to create this app is to really help my self and group of friends who resell a multitude of items, on several
+different platforms such as StockX, Mercari, eBay, etc... When I did my taxes this year, I had to go through my paypal, StockX, Facebook, eBay and Amazon to track every single transaction so I could
+maximize my taxes (in a good way). I thought this is terrible I should have documented and which now I do on an excel sheets which is a bit tedious but gets it done. 
+
+My app will go something like this.
+
+Manage inventory by inputting items {*required: item cost, fees, shipping,} 
+    - this will track your "Portfolio" and the value of it.
+
+Calculate inventory by doing simple algorithms to calculate gains and losses. 
+    - based off this and selected state it will calculate taxes you need to pay or not.
+    - Maybe add a business expense calculation part but not sure.
