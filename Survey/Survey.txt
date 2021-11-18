@@ -1,0 +1,10 @@
+Person 1 - Indecisive on what to eat, wants app to help decide. - Spin Wheel Decisons - Like the UI / how smooth interactons are - Do not like how boring app is - Could have better interface for introduction / more interactives. - 21 F Film
+
+Person 2 - Stock scanner alert app, wants afforable one - Stock Scanner - Likes all the concepts, very intutive interface, super smooth - Do not like the pop up spam from ads (basically none) - Not sure what to do for updates (novice at stocks) - 19 M Air Force
+
+Person 3 - Indecisive on what to eat when hanging with friends and gets really annoyed wants all LOCAL restaraunts using a map - Restaraunt Roulette - Simple UI with good look - Color choice - Could implement a food ordering api - 21 F Film
+
+Person 4 - A digitalized "get to know someone game" because there are no good ones with constant updates - Questions in a Box - Simple game with good UI - Super Super generic questions - Could have the choice to add your own questions or add multiplayer functionality - 23 M IT Tech
+
+Person 5 - Wants an app to send vibrations for L.D.R - Tinkovu - Super Super easy, click app button to send a notifations - None - Could have option to send your own message w/ image. - 21 F Waitress 
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/factsFragment">
+
+    <fragment
+        android:id="@+id/factsFragment"
+        android:name="com.joshhou.hw3.fragments.FactsFragment"
+        android:label="fragment_facts"
+        tools:layout="@layout/fragment_facts" />
+    <fragment
+        android:id="@+id/investmentFragment"
+        android:name="com.joshhou.hw3.fragments.InvestmentFragment"
+        android:label="fragment_investment"
+        tools:layout="@layout/fragment_investment" />
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.joshhou.hw3.fragments.WeatherFragment"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather" />
+</navigation>

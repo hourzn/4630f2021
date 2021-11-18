@@ -1,0 +1,30 @@
+Person 1 (Jack) - App for organizing todos, because calender apps right now aren't as effcient.
+
+Person 2 (Sashi) - App for checking into the dorm, cause right now the app seems to crash alot.
+
+Person 3 (Tiden) - App similar to Jack's, tailored for a business, a timer app that implements business services and based of that it can give a customer a quote
+
+Person 4 (Micah) - App to log all current parts in vechicle and tracks length of having it and based off of that it can tell you tell you what could be wrong or do you need a replacment.
+
+Person 5 (John) - App for UML that calculates student calender for monday / tuesday schedules.
+
+Person 6 (Wilbert) - App to track miles and alert miles, as well as input miles user wants to run then use some ML maybe? to create and automatic route for the user.
+
+Person 7 (Kathy) - App for team accountibility for staff teams, by giving you alerts if task needs to be done or not by certain dates.
+
+1. Hearing these ideas just lead to me think more about my idea and what can I do for features, because some
+of the students explained their features and made me realize I need think of more features. One idea I had
+was implementing other apis for ordering stuff, such as food or flowers (doordash or edible arangements).
+
+2. Without bombarding ads / charging them, one idea I could possibly do is charge for features. Basically,
+I give a set amount of features out lets say 3, and I have 2 that you can pay / subscribe for, and now you
+have access to that feature. Or I could do an ad-watch incentive for rewards as many other apps do.
+
+3. Some web apps, cybersole.io, mekrobotics.com and soleaio.com I think have extremely good UI's especially
+cybersole. I think it the way the css is done such as rounding and smooth animations just look so simple and
+smooth, it gives the user a professional feeling.
+
+4. After hearing my peers and Dr. Haim, I gathered more ideas for my app. So because I have more ideas for
+my app, I'm really liking it and for the long term too. If I commit on this app and complete the core features,
+I could possibly add hardware ware features in future.
+
