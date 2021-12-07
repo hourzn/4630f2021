@@ -3,20 +3,15 @@ import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { auth } from '../firebase';
 
-const HomeScreen = () => {
-    const navigation = useNavigation();
-
+const SettingsScreen = () => {
     const handleSignOut = () => {
         auth.signOut()
-            .then(() => {
-                navigation.replace('Login');
-            })
+            .then(() => {})
             .catch((error) => alert(error.message));
     };
-
     return (
         <View style={styles.container}>
-            <Text>Email: {auth.currentUser?.email}</Text>
+            <Text>Settings</Text>
             <TouchableOpacity onPress={handleSignOut} style={styles.button}>
                 <Text style={styles.buttonText}>Sign out</Text>
             </TouchableOpacity>
@@ -24,13 +19,14 @@ const HomeScreen = () => {
     );
 };
 
-export default HomeScreen;
+export default SettingsScreen;
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+        backgroundColor: '#171717',
     },
     button: {
         backgroundColor: '#0782F9',
