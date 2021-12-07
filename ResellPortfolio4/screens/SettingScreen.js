@@ -4,11 +4,24 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { auth } from '../firebase';
 
 const SettingsScreen = () => {
+<<<<<<< HEAD
     const handleSignOut = () => {
         auth.signOut()
             .then(() => {})
             .catch((error) => alert(error.message));
     };
+=======
+    const navigation = useNavigation();
+
+    const handleSignOut = () => {
+        auth.signOut()
+            .then(() => {
+                navigation.replace('Login');
+            })
+            .catch((error) => alert(error.message));
+    };
+
+>>>>>>> 031841851f8bc90d23a2c9dcd46d3f9e30eb7544
     return (
         <View style={styles.container}>
             <Text>Settings</Text>
@@ -26,7 +39,10 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+<<<<<<< HEAD
         backgroundColor: '#171717',
+=======
+>>>>>>> 031841851f8bc90d23a2c9dcd46d3f9e30eb7544
     },
     button: {
         backgroundColor: '#0782F9',

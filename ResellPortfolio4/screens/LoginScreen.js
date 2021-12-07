@@ -11,6 +11,7 @@ const LoginScreen = () => {
     const navigation = useNavigation();
 
     const handleSignUp = () => {
+<<<<<<< HEAD
         // auth.createUserWithEmailAndPassword(email, password)
         //     .then((userCredentials) => {
         //         const user = userCredentials.user;
@@ -18,6 +19,14 @@ const LoginScreen = () => {
         //     })
         //     .catch((error) => alert(error.message));
         navigation.replace('SignUp');
+=======
+        auth.createUserWithEmailAndPassword(email, password)
+            .then((userCredentials) => {
+                const user = userCredentials.user;
+                console.log('Registered with:', user.email);
+            })
+            .catch((error) => alert(error.message));
+>>>>>>> 031841851f8bc90d23a2c9dcd46d3f9e30eb7544
     };
 
     const handleLogin = () => {
@@ -49,7 +58,11 @@ const LoginScreen = () => {
             </View>
 
             <View style={styles.buttonContainer}>
+<<<<<<< HEAD
                 <TouchableOpacity onPress={handleLogin} style={styles.button}>
+=======
+                <TouchableOpacity  onPress={handleLogin} style={styles.button}>                  
+>>>>>>> 031841851f8bc90d23a2c9dcd46d3f9e30eb7544
                     <Text style={styles.buttonText}>Login</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={handleSignUp} style={[styles.button, styles.buttonOutline]}>
@@ -113,5 +126,9 @@ const styles = StyleSheet.create({
         fontSize: 30,
         fontWeight: '500',
         marginBottom: 5,
+<<<<<<< HEAD
     },
+=======
+    }
+>>>>>>> 031841851f8bc90d23a2c9dcd46d3f9e30eb7544
 });

@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { auth } from '../firebase';
 
+<<<<<<< HEAD
 const NetScreen = ({ navigation }) => {
     const handleSignOut = () => {
         auth.signOut()
@@ -15,6 +16,25 @@ const NetScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Text>Net</Text>
+=======
+const NetScreen = () => {
+    const navigation = useNavigation();
+
+    const handleSignOut = () => {
+        auth.signOut()
+            .then(() => {
+                navigation.replace('Login');
+            })
+            .catch((error) => alert(error.message));
+    };
+
+    return (
+        <View style={styles.container}>
+            <Text>Net</Text>
+            <TouchableOpacity onPress={handleSignOut} style={styles.button}>
+                <Text style={styles.buttonText}>Sign out</Text>
+            </TouchableOpacity>
+>>>>>>> 031841851f8bc90d23a2c9dcd46d3f9e30eb7544
         </View>
     );
 };
@@ -26,7 +46,10 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
+<<<<<<< HEAD
         backgroundColor: '#171717',
+=======
+>>>>>>> 031841851f8bc90d23a2c9dcd46d3f9e30eb7544
     },
     button: {
         backgroundColor: '#0782F9',
