@@ -1,0 +1,8 @@
+This project attempts to solve disorganization amongst resellers. Resell portfolio was
+intended to make an inventory / profit system to tell the user how much they have
+gained or loss based on what they input into the system. A user is supposed to enter an item
+in the inventory tab along with all the information about the item such as name, price, and website.
+The app will then do a simple algo. to calculate data on whether profit was attained or not, and will
+be graphically and textually visualized. I chose to do it in react native because of the previous knowledge of
+javascript, and the react framework, as well as the state management system. Project was not finished due to
+whole family catching covid since Thanksgiving till 12/6.
