@@ -6,3 +6,5 @@ The app will then do a simple algo. to calculate data on whether profit was atta
 be graphically and textually visualized. I chose to do it in react native because of the previous knowledge of
 javascript, and the react framework, as well as the state management system. Project was not finished due to
 whole family catching covid since Thanksgiving till 12/6.
+
+https://youtu.be/HTsy8HhJXG0
